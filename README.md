@@ -4,7 +4,7 @@ This loader will load the thumbnails for the videos which is locally stored on y
     String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/video.mp4";
 	ImageView mThumbnail = (ImageView) findViewById(R.id.thumbnail);
 
-	SuziLoader loader = new SuziLoader(); //Create it for oncs
+	SuziLoader loader = new SuziLoader(); //Create it for once
 	loader.with(MainActivity.this) //Context
 		.load(path) //Video path
 		.into(mThumbnail) // imageview to load the thumbnail
