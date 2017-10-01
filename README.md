@@ -1,4 +1,4 @@
-Use SuziLoader
+Use SuziLoader<br/>
 This loader will load the thumbnails for the videos which is locally stored on your filesystem.
 
     String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/video.mp4";
@@ -11,7 +11,7 @@ This loader will load the thumbnails for the videos which is locally stored on y
 		.type("mini") // mini or micro
 		.show(); // to show the thumbnail
 
-TO get this dependancy use the following steps
+To get this dependancy use the following steps
 
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
