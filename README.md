@@ -28,3 +28,8 @@ Step 2. Add the dependency
 	dependencies {
 		compile 'com.github.sushinpv:SuziVideoThumbnailLoader:0.1.0'
 	}
+	
+
+ADD READ EXTERNAL STORAGE Permission in manifest
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
